@@ -1,0 +1,28 @@
+.slide-in-from-right {
+    animation: 1s ease-out 0s 1 slideInFromRight both   ;
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) translateY(0) ;
+      opacity: 1;
+    }
+  }
+  /* loader */
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes grow {
+  50% {
+    transform: scale(1);
+  }
+}
+
